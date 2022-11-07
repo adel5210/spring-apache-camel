@@ -26,4 +26,12 @@ public class Product {
     public void setProductCategory(String productCategory) {
         this.productCategory = productCategory;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "productName='" + productName + '\'' +
+                ", productCategory='" + productCategory + '\'' +
+                '}';
+    }
 }
